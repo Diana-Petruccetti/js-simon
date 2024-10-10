@@ -24,3 +24,7 @@ funzioni
 // generazione numeri casuali (come generarli e come metterli in un array)
 // dopo averli messi in pagina, come si fanno sparire?
 
+for (var i = 0; i < 5; i++) {
+    let number = Math.random() * 99;
+    document.getElementById("number").innerHTML
+  }
