@@ -25,6 +25,6 @@ funzioni
 // dopo averli messi in pagina, come si fanno sparire?
 
 for (var i = 0; i < 5; i++) {
-    let number = Math.random() * 99;
-    document.getElementById("number").innerHTML
+  document.getElementById("number").innerHTML = Math.floor(Math.random() * 99);
+  console.log("number");
   }
