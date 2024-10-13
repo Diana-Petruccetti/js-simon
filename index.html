@@ -8,15 +8,50 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
-    <div id="number">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+    <main>
+        <div class="container">
 
-    <script src="./assets/js/main.js"></script>
+            <h1 class="display"></h1>
+            
+            <section class="guess_numbers d-none">
+                <h2>Quali numeri ti ricordi?</h2>
+                <p>Non importa in che ordine!</p>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="numb_1" class="form-label">Numero 1</label>
+                        <input type="number" class="form-control" name="numb_1" id="numb_1" aria-describedby="helpId">
+                        <small id="helpId" class="form-text text-muted">Inserisci un numero</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numb_2" class="form-label">Numero 2</label>
+                        <input type="number" class="form-control" name="numb_2" id="numb_2" aria-describedby="helpId">
+                        <small id="helpId" class="form-text text-muted">Inserisci un numero</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numb_3" class="form-label">Numero 3</label>
+                        <input type="number" class="form-control" name="numb_3" id="numb_3" aria-describedby="helpId">
+                        <small id="helpId" class="form-text text-muted">Inserisci un numero</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numb_4" class="form-label">Numero 4</label>
+                        <input type="number" class="form-control" name="numb_4" id="numb_4" aria-describedby="helpId">
+                        <small id="helpId" class="form-text text-muted">Inserisci un numero</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numb_5" class="form-label">Numero 5</label>
+                        <input type="number" class="form-control" name="numb_5" id="numb_5" aria-describedby="helpId">
+                        <small id="helpId" class="form-text text-muted">Inserisci un numero</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Invia
+                    </button>
+                </form>
+            </section>
+
+            <script src="./assets/js/main.js"></script>
+        </div>
+    </main>
 </body>
 </html>
